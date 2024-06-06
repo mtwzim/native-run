@@ -1,3 +1,42 @@
+## [2.0.1](https://github.com/ionic-team/native-run/compare/v2.0.0...v2.0.1) (2024-01-25)
+
+
+### Bug Fixes
+
+* paths contain non-ascii characters cause error ([#381](https://github.com/ionic-team/native-run/issues/381)) ([77b0481](https://github.com/ionic-team/native-run/commit/77b048164faa453f2b4c8c4a2dee15a671240777))
+
+# [2.0.0](https://github.com/ionic-team/native-run/compare/v1.7.4...v2.0.0) (2023-10-26)
+
+
+### Bug Fixes
+
+* typo in android variable logs ([#318](https://github.com/ionic-team/native-run/issues/318)) ([3d9251f](https://github.com/ionic-team/native-run/commit/3d9251f2f7f569e16cdbda58bb5304ac9385096b))
+
+
+* chore!: support only node 16+ (#354) ([eb20983](https://github.com/ionic-team/native-run/commit/eb2098358ecf2a79af2a212dae7c74140dbffb09)), closes [#354](https://github.com/ionic-team/native-run/issues/354)
+* feat(android)!: Remove AVD creation on list (#349) ([2a310ff](https://github.com/ionic-team/native-run/commit/2a310ff7283b07806a7edc2bcf1177b8e333e85c)), closes [#349](https://github.com/ionic-team/native-run/issues/349)
+
+
+### BREAKING CHANGES
+
+* drop node 10-14 support
+* removal of AVD creation feature
+
+## [1.7.4](https://github.com/ionic-team/native-run/compare/v1.7.3...v1.7.4) (2023-10-24)
+
+
+### Bug Fixes
+
+* xcode major version extraction ([#351](https://github.com/ionic-team/native-run/issues/351)) ([24ffe66](https://github.com/ionic-team/native-run/commit/24ffe6654458d1aeb4944f9ceb9ddb402c39f651))
+
+## [1.7.3](https://github.com/ionic-team/native-run/compare/v1.7.2...v1.7.3) (2023-09-21)
+
+
+### Bug Fixes
+
+* Pin @types/babel__traverse version to fix build ([#342](https://github.com/ionic-team/native-run/issues/342)) ([8492b24](https://github.com/ionic-team/native-run/commit/8492b2454466bbee2f843dd09ec6231d608a5ad5))
+* use devicectl for iOS 17 if Xcode 15 is available ([#341](https://github.com/ionic-team/native-run/issues/341)) ([5c56d71](https://github.com/ionic-team/native-run/commit/5c56d712fdeb351b01d75edeb2bd2c9106e29f35))
+
 ## [1.7.2](https://github.com/ionic-team/native-run/compare/v1.7.1...v1.7.2) (2023-03-02)
 
 
